@@ -22,7 +22,7 @@ ASCII_PEDANG = """
 
 ASCII_TENGKORAK = """
     💀 KEKALAHAN! 💀
-    
+
                        ______
                     .-"      "-.
                    /            \
@@ -120,6 +120,7 @@ def lihat_riwayat_permainan():
     """Tampilkan riwayat permainan"""
     if not os.path.exists(SAVE_FILE):
         print("\n📋 Belum ada riwayat permainan.")
+        input("Tekan Enter untuk kembali ke menu...")
         return
     
     with open(SAVE_FILE, 'r', encoding='utf-8') as f:
@@ -135,8 +136,10 @@ def lihat_riwayat_permainan():
                 print(f"   Ending: {pemain.get('ending', 'Unknown')}")
                 print(f"   Waktu: {pemain.get('tanggal', 'Unknown')}")
             print("\n" + "="*50 + "\n")
+            input("Tekan Enter untuk kembali ke menu...")
         except:
             print("\n❌ Error membaca riwayat permainan.")
+            input("Tekan Enter untuk kembali ke menu...")
 
 
 def awal_cerita(nama):
