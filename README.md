@@ -1,2 +1,2 @@
 # Mystery-Adventure-Bot
-Game berbasis tulisan yang memberikan kesempatan kepada pemain untuk membuat ceritanya sendiri melalui sistem decision-making
+Game berbasis tulisan yang memberikan kesempatan kepada pemain untuk membuat ceritanya sendiri melalui sistem decision-making. Mengambil inspirasi cerita dari seorang pejuang programmer yang menempuh petualangan yang tak jelas arahnya. Ia melalui gelap dan teror, serta menemui sosok programmer abadi yang ada dalam sebuah gua mistis. Apakah sang programmer akan terjebak dalam kutukan abadi programmer, ataukah dia akan menemukan arti sejati seorang programmer?
